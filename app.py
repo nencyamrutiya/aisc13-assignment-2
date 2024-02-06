@@ -6,7 +6,10 @@ for idx, item in enumerate(a):
     print(item)
 
 
-def add(a, b):
-    return a+b
+def is_odd_even(a):
+    return a % 2 == 0
 
-assert(1,2) == 3
+
+# function tests
+assert(2) == True
+assert(2) == False
